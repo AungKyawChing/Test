@@ -135,7 +135,7 @@ let questions = [
 	  {
         numb: 13,
         question: "রাদারফোর্ড নিউক্লিয়াস আবিষ্কার পরীক্ষায় ৯৯% আলফা (α) কণা স্বর্ণপাত ভেদ করে সোজা চলে যায় কেন?",
-        answer: "",
+        answer: "ঘ) পরমাণুর অধিকাংশ স্থানই ফাঁকা",
         options: [
           "ক) পরমাণুর কেন্দ্র ধনাত্মক চার্জযুক্ত বলে",
           "খ) আলফা কণার গতিশক্তি বেশি বলে",
@@ -168,7 +168,7 @@ let questions = [
 	  {
         numb: 16,
         question: "IR এর প্রভাবে ঘটে?",
-        answer: "",
+        answer: "ঘ) দেহের তাপমাত্রা হ্রাস",
         options: [
           "ক) রক্ত সঞ্চালন হ্রাস",
           "খ) ধমনী ও শিরা প্রশস্তকরণ",
@@ -286,11 +286,11 @@ function showResultBox(){
     reslut_box.classList.add("activeResult");
     
     const scoreText = document.querySelector(".score_text"); 
-    if(userScore > 19){//Change the good number
+    if(userScore > 19){
        let scoreTag = '<span>Congratulations You Got <p>'+ userScore +'</p> Out Of <p>'+questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag; 
     }
-   else if(userScore > 8){// Change The Pass Number
+   else if(userScore > 8){
         let scoreTag = '<span>Carry On 👌 You Got <p>'+ userScore +'</p> Out Of <p>'+questions.length +'</p></span>';
          scoreText.innerHTML = scoreTag; 
      }
