@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naheruma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo"><!--change logo image -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm<br><span>Naheruma Islam.</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Naheruma Islam. I learning Programing. Basically I have mid level of idea about HTML, CSS and JavaScript with these language you can say i am noob Web front designer. I also agree with this but my dream is to be a Well Full Stack Developer, and if my mind say about a project then i could make it with my coding skill and i learning for my this skill.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab"id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>I can write & read HTML code Very welly.</li>
+                            <li><span>CSS</span><br>I have knowledge about CSS. I know how to write CSS. But i also know that i am not that much professional for welly design a web page.</li>
+                            <li><span>JavaScript</span><br>JavaScript also like my CSS skill. But comparatively i think i am relatively good at JavaScript.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="experience">
+                        <ul>
+                            <li><span><a href="https://aungkyawching.github.io/Test">Web Quiz App</a></span><br>I have customized a Web Quiz App. By clicking the colouring header, you can visit my Web Quiz App.</li>
+                            <li><span><a href="https://aungkyawchingbizzclue.github.io/FeeCalculator">Financial Calculator</a></span><br>I have create a Fee and Stock Calculator. At the Fee Calculator You can calculate Some Finacial Fee And with Stock calculator you can input your stock BUY & SELL price and quantity of you trade, the calculator will calculate your Profit And Loss.</li>
+                            <li><span><a href="https://aungkyawching.github.io/Calculator/">Scientific Calculator</a></span><br>I have designed a Scientific Calculator with HTML, CSS & JavaScript.</li>
+                            <li><span><a href="#">Portfolio Website</a></span><br>I have Customized This Portfolio Website.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>As a web designer, I am dedicated to creating modern, responsive, and user-friendly websites that reflect my clients' vision and meet their business objectives. With my passion for designing and developing visually appealing and intuitive websites, I strive to create an engaging online presence for my clients that leave a lasting impression on their audience. From concept to launch, I take pride in providing exceptional website design services that exceed my clients' expectations and help their businesses thrive in the digital world.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>As a UI/UX web designer, I specialize in creating engaging and intuitive digital experiences for users. My focus is on designing user interfaces that are visually appealing and easy to navigate, while also ensuring that the user experience is optimized for maximum usability and accessibility. With a strong foundation in design principles, I strive to create interfaces that are not only aesthetically pleasing, but also functional and user-friendly. Whether it's through thoughtful design choices, clear information architecture, or intuitive navigation, I aim to make every interaction with a website or application a positive and seamless experience for the user.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Coming Soon...</h2>
+                    <p>Coming soon..........</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------Portfolio--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Web Quiz App</h3>
+                        <p>In this web quiz app you can play quiz and see my amazing work.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Financial Calculator</h3>
+                        <p>By clicking here you can use my financial calculator. By using first one you can cakculate some transaction fee and second one will help you to calculate your profit and loss at trading.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>You can order a portfolio Website like it with using your details. For order you have to Contact Me.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ------------Contack------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>aungkching01@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>01822107947</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/AungKyawChingProfile"><i class="fab fa-facebook"></i></a>
+                        <a href="comingsoon.html"><i class="fab fa-twitter-square"></i></a>
+                        <a href="comingsoon.html"><i class="fab fa-instagram"></i></a>
+                        <a href="comingsoon.html"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="comingsoon.html" class="btn btn2">Download CV</a><!--Add download --> 
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email Address" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Send</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="copyright">
+            <p>Copyright © Kevin. Made with<i class="fas fa-heart"></i> by Easy Tutorials</p>
+        </div> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
